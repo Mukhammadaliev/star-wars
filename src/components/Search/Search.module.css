@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.input {
+  display: inline-block;
+  width: 200px;
+  outline: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.container {
+  margin-top: 20px;
+}
+.img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 15px 30px;
+  color: #fff;
+}

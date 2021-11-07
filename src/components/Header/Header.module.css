@@ -1,0 +1,40 @@
+.header {
+  padding: 10px 0;
+  width: 100%;
+}
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 12px;
+  margin: 0 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  text-shadow: 2px 0px 20px rgba(95, 95, 2, 1);
+}
+.active {
+  border: 2px solid #ae72c2;
+  color: #ae72c2;
+}
+
+.logo {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}

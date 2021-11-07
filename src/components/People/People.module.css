@@ -1,0 +1,26 @@
+.item {
+  width: 190px;
+  margin: 20px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.img {
+  display: inline-block;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 3px 3px 0 0;
+}
+
+.name {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
