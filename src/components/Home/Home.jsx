@@ -18,10 +18,6 @@ const Home = ({ setErrorApi }) => {
   const queryPage = query.get('page')
 
 
-  useEffect(() => {
-    fetchPeople(`${GET_API}${queryPage}`)
-  }, [queryPage])
-
   const fetchPeople = async (url) => {
     setIsLoading(true)
     const data = await getApiResourcee.getAllPeople(url)
@@ -46,6 +42,10 @@ const Home = ({ setErrorApi }) => {
       setErrorApi(true)
     }
   }
+
+  useEffect(() => {
+    fetchPeople(`${GET_API}${queryPage}`)
+  }, [])
 
 
   return (

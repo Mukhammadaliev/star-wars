@@ -44,16 +44,14 @@ const PeoplePage = ({setErrorApi}) => {
 
   }
 
-  const goBackFunc = () => {
-    goBack.goBack()
-  }
+
 
 
 
   return (
     <div className={styles.wrapper}>
 
-      <button onClick={goBackFunc} className={styles.btn}>Go back</button>
+      <button onClick={() => goBack('/')} className={styles.btn}>Go back</button>
       {!loadingPer ? (
 
         <div className={styles.inner}>
